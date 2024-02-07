@@ -1,0 +1,76 @@
+*
+{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box
+{
+    width: 500px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    
+
+}
+.box .header
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.input
+{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.input input
+{
+    width:100%;
+    height:30px;
+    border:1px solid black;
+}
+.input select
+{
+height: 30px;
+margin-left: 5px;
+}
+.submit
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit button
+{
+    width: 75px;
+height: 40px;
+background: #051937;
+color: white;
+margin-bottom: 15px;
+
+}
+.result
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result p{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
